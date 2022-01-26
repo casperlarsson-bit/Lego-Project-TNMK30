@@ -1,0 +1,277 @@
+/*Adding default background color*/
+
+body {
+	background-color: #cac4ce;
+}
+
+
+/*Center and shrink div for info text of a search*/
+
+.infotext {
+	margin: auto;
+	width: 80%;
+}
+
+
+/*Adding padding to links*/
+
+a {
+	padding: 5px;
+}
+
+
+/*Changing color of the link*/
+
+a:link {
+	color: #333232;
+}
+
+a:hover {
+	color: #333232;
+}
+
+a:visited {
+	color: #333232;
+}
+
+
+/*Styling the navbar*/
+
+ul {
+	background-color: #333232;
+	list-style-type: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+}
+
+li {
+	border-right: 1px solid #bbb;
+	float: left;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a.menu {
+	color: #f8f7ff;
+	display: block;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+}
+
+li a:hover:not(.active) {
+	background-color: #111;
+}
+
+
+/*Setting the font and position for tables*/
+
+table {
+	border: 1px solid #000;
+	border-collapse: collapse;
+	font-family: arial, sans-serif;
+	margin: auto;
+	width: 100%;
+}
+
+
+/*Adding specific width to the searchtable*/
+
+table.searchtable {
+	width: 80%;
+}
+
+
+/*Styling the table*/
+
+td,
+th {
+	border: 1px solid #000;
+	text-align: left;
+	padding: 8px;
+}
+
+
+/*Makiing even rows one color and odd another*/
+
+tr:nth-child(even) {
+	background-color: #f8f7ff;
+}
+
+tr:nth-child(odd) {
+	background-color: #76cccc;
+}
+
+
+/*Styling the searchbar*/
+
+form {
+	margin: auto;
+	width: 79%;
+}
+
+
+/*Setting specific size to h1 that's with the searchbar*/
+
+h1.searchbar {
+	font-size: 50px;
+}
+
+
+/*Styling the box where you search*/
+
+input[type=text] {
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	font-size: 16px;
+	background-color: white;
+	padding: 12px 20px 12px 5px;
+}
+
+
+/*Specific size and position for errormesseges*/
+
+.errormessage {
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/*OBS!! Kan någon annan kommentera dessa!*/
+
+
+/*Hittar ingenstans vi ens använder dessa klasser*/
+
+.active {
+	background-color: #4cdf50;
+}
+
+.right {
+	float: right;
+}
+
+
+/*Center the page select*/
+
+.page_select {
+	text-align: center;
+	font-size: 25px;
+}
+
+
+/*Aligning head in center*/
+
+.head {
+	text-align: center;
+}
+
+
+/*Specific width for the list inside of an set*/
+
+.setlist {
+	margin: auto;
+	width: 80%;
+}
+
+
+/*Centering the startpage searchbar and header*/
+
+.center {
+	margin: auto;
+	top: 50px;
+	width: 50%;
+}
+
+.info {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+
+
+/*Styling the title of the website(legosida)*/
+
+.dark {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 38px;
+}
+
+
+/*Positioning picture in center from left and right*/
+
+.setpic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Styling the drop down button*/
+
+.dropbtn {
+	background-color: #76cccc;
+	color: #333232;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+}
+
+
+/* Positioning dropdown button*/
+
+.dropdown {
+	position: relative;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+
+/* Content of dropdown button not visible from start*/
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #76cccc;
+	min-width: 160px;
+	/*box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);*/
+	box-shadow: 5px 10px 18px #888888;
+	z-index: 1;
+}
+
+
+/* Styling the links in dropdown button*/
+
+.dropdown-content a {
+	color: black;
+	display: block;
+	padding: 12px 16px;
+	text-decoration: none;
+}
+
+
+/* Changing color of the links in the dropdown*/
+
+.dropdown-content a:hover {
+	background-color: #6dbcbc;
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+/* Change color of dropdown button while showing content*/
+
+.dropdown:hover .dropbtn {
+	background-color: #6dbcbc;
+}
